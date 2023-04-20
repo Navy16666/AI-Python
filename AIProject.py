@@ -29,7 +29,7 @@ def wishMe():
     else:
         speak("Good Evening!")  
 
-    speak("I am Veroica Sir. Please tell me how may I help you")       
+    speak("I am Veronica Sir. Please tell me how may I help you")       
 
 def takeCommand():
 
@@ -65,7 +65,7 @@ def get_temperature():
     else:
         return None
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     wishMe()
     bulb_on = False
     bulb_turned_on_time = None
